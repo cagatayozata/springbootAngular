@@ -1,0 +1,50 @@
+
+
+	Restful API - Java Spring Boot, mySQL, Hibernate, JPA
+
+	
+	CRUD - GET, POST, PUT, DELETE
+
+
+	Development Environment
+
+	JDK: 1.8
+
+	mySQL: 5 +
+
+	Maven: 3.6.0
+
+	
+	Setup Information
+	
+	- Create Database "studentdb"
+
+	You can change database in application.properies.
+
+	- Set username to "root", password to "root"
+
+	You can change username and password in application.properies.
+	
+	REST APIs
+	
+	"api/students" -> GET all students
+
+	"api/students/{id}" -> GET a student by id
+
+	"api/students/{id}" -> PUT for update
+
+	"api/students/{id}" -> DELETE a student
+
+	Notes
+
+	- "?autoReconnect=true&useSSL=false" -> This will disable SSL and also suppress the SSL errors.
+
+	- You can choose one of them for hibernate dialect.
+	MySQL5InnoDBDialect, MySQLDialect, MySQLInnoDBDialect, MySQLMyISAMDialect
+
+	- If you choose JDK 9, compile errors may be caused.
+
+	- I use Intellij IDEA Ultimate Edition.
+
+
+

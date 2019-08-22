@@ -2,6 +2,8 @@
 
 Student Management System Web API - Get Student, Add Student, Update Student, Delete Student, Search System
 
+For Frontend: https://github.com/cagatayozata/angular_studentsystem
+
 ## Getting Started
 
 Data are stored on mySQL. Search records are added to Redis. System can be worked with any frontend frameworks. Frontend for this project is ready on my repositories.

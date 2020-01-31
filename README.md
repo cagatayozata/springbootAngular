@@ -2,7 +2,7 @@
 
 Student Management System Web API - Get Student, Add Student, Update Student, Delete Student, Search System
 
-Data are stored on mySQL. Search records are added to Redis. System can be worked with any frontend frameworks.
+Data are stored on mySQL. Search records are added to Redis. System can be worked with any frontend frameworks. It may be used for learning purposes.
 
 ## Prerequisites
 

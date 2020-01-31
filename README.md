@@ -23,6 +23,7 @@ Use the package manager [pip3](https://pip.pypa.io/en/stable/) to install foobar
 
 ```bash
 mvn spring-boot:run
+npm install
 ng serve
 ```
 

@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {}
+
+
+.main {
+    padding: 25px;
+}
+
+footer{
+text-align: center;
+border-top: 2px dashed #ccc;
+padding-top: 20px;
+margin-top: 20px;
+}
+
+button {
+    margin-bottom: 19px;
+
+}
+
+.rightspace{
+    margin-right: 20px;
+}

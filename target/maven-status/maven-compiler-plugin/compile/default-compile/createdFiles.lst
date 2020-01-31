@@ -1,7 +1,0 @@
-com/ozata/cagatay/student/StudentRepository.class
-com/ozata/cagatay/exceptions/NotFoundException.class
-com/ozata/cagatay/redis/Jedis.class
-com/ozata/cagatay/student/Student.class
-com/ozata/cagatay/index/IndexController.class
-com/ozata/cagatay/student/StudentController.class
-com/ozata/cagatay/StudentApplication.class

@@ -1,0 +1,39 @@
+<div *ngIf="showForm" class="list-group">
+
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Name</label>
+    <input type="text" [(ngModel)]="nametext" class="form-control" id="exampleFormControlInput1"
+      placeholder="{{ nametext }}">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">School Name</label>
+    <select class="form-control" [(ngModel)]="schooltext" id="exampleFormControlSelect1">
+      <option>Bilkent University</option>
+      <option>Baskent Uni</option>
+      <option>ODTU</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlInput1">CGPA</label>
+    <input type="text" [(ngModel)]="cpgatext" class="form-control" id="exampleFormControlInput1"
+      placeholder="{{ cpgatext }}">
+  </div>
+
+  <button type="button" class="btn btn-primary" (click)="uptButton()">UPDATE</button>
+
+</div>
+
+<a class="list-group-item list-group-item-action" *ngFor="let student of students; index as i;">
+  <div class="d-flex w-100 justify-content-between">
+    <h5 class="mb-1">{{ student.name }}</h5>
+    <small> <strong>CPGA: </strong> {{ student.cgpa }}</small>
+  </div>
+  <p class="mb-1">{{ student.school }}</p>
+  <small>
+    <button (click)="showUpt(student.id, student.name, student.school, student.cgpa)" type="button"
+      class="btn btn-primary rightspace">UPDATE</button>
+    <button (click)="delButton(student.id)" type="button" class="btn btn-danger">DELETE</button></small>
+
+</a>

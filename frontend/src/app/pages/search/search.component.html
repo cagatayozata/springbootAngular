@@ -1,0 +1,15 @@
+<div class="form-group">
+  Enter Student ID: <input #enteredId type="text" class="form-control" placeholder="ID">
+</div>
+
+<button (click)="searchButton(enteredId.value)" type="button" class="btn btn-primary mb-2">
+  SEARCH
+</button>
+
+<div *ngIf="error && student!empty">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><strong>Student Name: </strong>{{student.name}}</li>
+    <li class="list-group-item"><strong>School: </strong>{{student.school}}</li>
+    <li class="list-group-item"><strong>CGPA: </strong>{{student.cgpa}}</li>
+  </ul>
+</div>

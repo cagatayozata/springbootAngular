@@ -1,7 +1,0 @@
-/home/cagatay/Desktop/Project_Student_System_SpringBoot/src/main/java/com/ozata/cagatay/StudentApplication.java
-/home/cagatay/Desktop/Project_Student_System_SpringBoot/src/main/java/com/ozata/cagatay/index/IndexController.java
-/home/cagatay/Desktop/Project_Student_System_SpringBoot/src/main/java/com/ozata/cagatay/redis/Jedis.java
-/home/cagatay/Desktop/Project_Student_System_SpringBoot/src/main/java/com/ozata/cagatay/exceptions/NotFoundException.java
-/home/cagatay/Desktop/Project_Student_System_SpringBoot/src/main/java/com/ozata/cagatay/student/StudentRepository.java
-/home/cagatay/Desktop/Project_Student_System_SpringBoot/src/main/java/com/ozata/cagatay/student/Student.java
-/home/cagatay/Desktop/Project_Student_System_SpringBoot/src/main/java/com/ozata/cagatay/student/StudentController.java
